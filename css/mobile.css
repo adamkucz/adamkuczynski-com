@@ -1,0 +1,241 @@
+@media only screen and (max-width: 600px) {
+
+html {
+  overflow-y: auto;
+}
+
+/* Styles my name */
+#home {
+  font-size: 1.5em;
+  padding-left: 30px;
+  font-weight: bold;
+  float: left;
+}
+
+#home span::after {
+  content: "A. Kuczynski";
+}
+
+/**************************
+Style mobile menu
+***************************/
+#mobile-menu {
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+  margin-top: calc((70px - 39px)/2);
+  margin-bottom: calc((70px - 39px)/2);
+  margin-right: 15px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.change-back .bar1 {
+  -webkit-transform: rotate(45deg) translate(9px, -6px);
+  transform: rotate(45deg) translate(9px, -6px);
+}
+
+
+
+/* Hide desktop nav bar */
+.navbar {
+  display: none;
+  z-index: 99999;
+  min-height: calc(115vh - 70px - 60px - 50px);
+  background-color: rgb(0, 0, 0, .90);
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar ul {
+  margin-top: 20px;
+}
+
+.tablinks {
+  display: list-item;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+#home {
+  color: white;
+  border: none;
+}
+
+#mobile-home {
+  display: list-item;
+}
+
+.image-container {
+  padding-top: 15px;
+}
+
+.middle-page {
+  margin: 0 10px;
+}
+
+#full-name::after {
+  content: "Adam Kuczynski";
+}
+
+
+.subsubheader {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#interests,
+#education {
+  margin: 0;
+}
+
+#education h2 {
+  margin-top: -10px;
+}
+
+/**************************
+Current Projects page
+***************************/
+#CurrentProjects div {
+  margin: 0 3px;
+}
+
+#project-connect img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#CurrentProjects h2 {
+  display: block;
+}
+
+/**************************
+CV page
+***************************/
+#cv-pdf {
+  display: none;
+}
+
+#cv-mobile  {
+  display: block;
+  height: 75px;
+  width: 150px;
+  line-height: 75px;
+  font-size: 1.5em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 30px auto 0 auto;
+}
+
+
+/**************************
+Research page
+***************************/
+
+#Research ul {
+  padding: 0 1px;;
+}
+
+.abstract {
+  display: none;
+}
+
+.title {
+  padding-top: 10px;
+}
+
+#Research li {
+  border-bottom: 1px solid rgb(86, 86, 86);
+}
+
+#Research li:last-of-type {
+  border: none;
+}
+
+#Research {
+  text-align: center;
+}
+
+#Research h2 {
+  text-align: center;
+}
+
+/**************************
+Clinical page
+***************************/
+#Clinical h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+#Clinical div {
+  font-size: 1.25em;
+  margin: 0;
+  text-align: left;
+  margin-bottom: 1.25em;
+}
+
+
+#clinical-picture {
+  width: 262px;
+  height: 238px;
+  float: none;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#clinical-email {
+  margin-top: 20px !important;
+}
+
+#Clinical ul {
+  list-style-type: square;
+}
+
+
+#ConfidentialityWarning {
+  display: none;
+  margin-top: 5px !important;
+  font-size: .75em !important;
+  border: 2px solid rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0, .25);
+  border-radius: 5px;
+  padding: 3px;
+}
+
+
+
+
+}

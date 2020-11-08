@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/master.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161704777-1"></script>
+    <script src="./js/analytics.js"></script>
+    <title>Adam M. Kuczynski, M.S.</title>
+  </head>
+  <body>
+    <div class="main-container">
+
+      <header>
+
+        <!-- Mobile menu button -->
+        <!-- Only displayed when screen width < 1024px -->
+        <div id="mobile-menu" onclick="expandMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+        <!-- Navigation Bar -->
+        <ul>
+          <li id="home" class="tablinks" onclick="openTab(event, 'Home')">
+            <span>
+              <!-- Content determined within CSS -->
+              <!-- Either Adam M. Kuczynski or AMK -->
+            </span>
+          </li>
+
+          <div class="navbar">
+            <li id="mobile-home" class="tablinks" onclick="openTab(event, 'Home')"><span>Home</span></li>
+            <li class="tablinks" onclick="openTab(event, 'Research')"><span>Research<span></li>
+            <li class="tablinks" onclick="openTab(event, 'CurrentProjects')"><span>Current Projects<span></li>
+            <li class="tablinks" onclick="openTab(event, 'CV')"><span>CV</span></li>
+          </div>
+
+        </ul>
+
+      </header>
+
+      <div class="middle-page">
+
+        <div id="Home" class="tabcontent">
+
+          <div class="image-container">
+            <img id="profile-pic" src="./images/AMK Headshot.jpg" alt="Adam's Profile Picture">
+          </div>
+
+          <p id="full-name">
+            <!-- Content determined within CSS -->
+          </p>
+          <p id="subheader">
+            Clinical Psychology Graduate Student
+          </p>
+
+          <div class="subsubheader">
+
+            <div id="interests">
+
+              <h2>Research Interests</h2>
+
+              <ul>
+                <li>
+                  <span>Mechanisms of social connection and isolation on health-related outcomes</span>
+                </li>
+                <li>
+                  <span>Social functioning as a transdiagnostic mental health outcome</span>
+                </li>
+                <li>
+                  <span>Functional Analytic Psychotherapy (FAP) mechanisms and outcomes</span>
+                </li>
+                <li>
+                  <span>Etiology of mental illness with a focus on symptoms of depression</span>
+                </li>
+                <li>
+                  <span>Application of quantitative methods to psychotherapy</span>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="subsubheader">
+            <div id="education">
+
+              <h2>Education</h2>
+              <ul>
+                <li>
+                  <span class="degree">PhD in Clinical Psychology, 2023</span>
+                  <span class="school">University of Washington</span>
+                </li>
+                <li>
+                  <span class="degree">MS in Clinical Psychology, 2016</span>
+                  <span class="school">University of Washington</span>
+                </li>
+                <li>
+                  <span class="degree">BS in Psychology, 2013</span>
+                  <span class="school">University of Washington</span>
+                </li>
+                <li>
+                  <span class="degree">Diploma, 2009</span>
+                  <span class="school">Eastlake High School</span>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+
+        </div>
+
+        <div id="CurrentProjects" class="tabcontent">
+
+          <!-- UW COVID-19 Response Study -->
+
+          <div id="covid-19-response">
+
+            <table>
+              <tr>
+                <td><img src="./images/UW COVID-19 Response Study Logo.png" alt="UW COVID-19 Response Study Logo"></td>
+                <td><h2>UW COVID-19 Response Study</h2></td>
+              </tr>
+            </table>
+
+            <p>
+              King County, WA is currently the epicenter of the COVID-19 outbreak in the United States,
+              and the disease appears to be spreading rapidly across the region and beyond. The purpose of this
+              research is to understand how an outbreak such as this affect our mental and
+              social well-being and how these in turn influence our own behavioral response.
+
+              We are recruiting adults (18+) who currently live in King County, WA to participate in this research.
+              Participants will take a brief (3 minute) survey on their smart phones every evening for 2.5 months,
+              where they will be asked about their emotional, behavioral, and social responses to COVID-19.
+            </p>
+
+            <p>
+              More info can be found <a href="https://uwartsandsciences.sjc1.qualtrics.com/jfe/form/SV_aflTLlb1NRDFJ3L?ref=akweb" target="_blank">here</a>.
+            </p>
+
+            <p>
+              Please contact us with any questions: <a href="mailto:uwcovid19@uw.edu">uwcovid19@uw.edu</a>
+            </p>
+
+          </div>
+
+          <!-- Project Connect -->
+          <div id="project-connect">
+
+            <table>
+              <tr>
+                <td><img src="./images/Project Connect Logo.png" alt="Project Connect Logo"></td>
+                <td><h2>Project Connect</h2></td>
+              </tr>
+            </table>
+
+            <p><em>Relationships matter.</em></p>
+            <p>
+              A defining feature of being human is our need for social connection. Surrounding ourselves with people
+              who understand us, join us, and support us is vital to our happiness and well-being. In fact, doing so
+              protects us against mental and physical illness such as depression and cardiovascular problems.
+            </p>
+            <p>
+              We are conducting research at our Center to understand processes involved in the formation of healthy,
+              supportive relationships, and we <u>need your help</u>. Specifically, we will examine how feelings of connection
+              with others change naturally over time and in response to either weekly counseling or weekly webinars.
+            </p>
+            <p>
+              Participants in this research will come to our Center at the University of Washington 3 times over the
+              course of 4 months as well as complete brief surveys on your phone every day.
+            </p>
+            <p>
+              <a target="_blank" href="https://uwartsandsciences.sjc1.qualtrics.com/jfe/form/SV_4NOhVtaJlFu7PrT?ref=AMKweb">Click here</a>
+              to take our eligibility survey (5-10 minutes). We will ask you about your relationships,
+              mood, and mental health. Your data are stored safely and with confidentiality.
+            </p>
+            <p>
+              Please contact us with any questions: <strong>206-616-7450</strong> | <a href="mailto:uwcssc@uw.edu">uwcssc@uw.edu</a>
+            </p>
+          </div>
+
+
+        </div>
+
+        <div id="Research" class="tabcontent">
+
+          <h2>Peer-reviewed Papers</h2>
+
+          <ul>
+
+            <li>
+              <span class=title>
+                <a href="https://doi.org/10.1016/j.jcbs.2020.09.001" target="_blank">
+                  An integrative contextual behavioral model of intimate relations
+                </a>
+              </span>
+              <span class="journal">Journal of Contextual Behavioral Science</span>
+              <span class="year">2020</span>
+              <span class="author">Jonathan Kanter, Adam Kuczynski, Katherine Manbeck, Mariah Corey, and Elliot Wallace</span>
+              <span class="abstract">
+                Intimate relationships matter to health and happiness. However, the vast scope of relationship research and the abundance of precise 
+                micro-theories has presented obstacles to the development of integrative theories with contextual-behavioral foundations that are 
+                oriented towards application of findings in domains of public health significance. Derived from the well-validated Interpersonal 
+                Process Model, which described intimacy as a dyadic exchange in which Person A engages in a vulnerable self-disclosure, Person 
+                B enacts a response, and Person A perceives the response as responsive, we present an integrative, analytic-abstractive, 
+                contextual-behavioral model of intimate relations. The model describes the intimacy process as a set of functional relations 
+                describing behaviors and responses of Persons A and B in context, languaged as middle-level terms to facilitate cross-disciplinary 
+                applications. Three primary relations of the model are non-verbal emotional expression (Person A) and safety (Person B), verbal 
+                self-disclosure (Person A) and validation (Person B), and asking (Person A) and giving (Person B). The model also emphasizes 
+                the importance of self- and other-awareness, expressions of closeness, and reciprocity as additional terms. Future research 
+                directions and potential applications are discussed.
+              </span>
+            </li>
+
+            <li>
+              <span class=title>
+                <a href="https://doi.org/10.1007/s12552-020-09298-w" target="_blank">
+                  The measurement and structure of microaggressive communications by White people against Black people
+                </a>
+              </span>
+              <span class="journal">Race and Social Problems</span>
+              <span class="year">2020</span>
+              <span class="author">Jonathan Kanter, Monnica Williams, Adam Kuczynski, Mariah Corey, Ryan Parigoris, Cathea Carey, Katherine Manbeck, Elliot Wallace, and Daniel Rosen</span>
+              <span class="abstract">
+                Previous research on microaggressions has emphasized the frequency of and distress produced by microaggressions as reported by people of color.
+                The current research supplements the existing literature by developing a self-report measure of White individuals’ microaggressive likelihood 
+                against Black people, the Cultural Cognitions and Actions Scale (CCAS). Study 1 developed the CCAS through exploratory and confirmatory factor 
+                analyses of responses to CCAS items from a sample of 978 non-Hispanic White undergraduate students. The final scale comprised four factors 
+                (Negative Attitudes, Colorblindness, Objectifying, and Avoidance) assessing microaggressive likelihood, and CCAS total and factor scores were 
+                significantly related to several other indicators of racism and bias. Study 2 involved 31 of the previous participants in a lab-based discussion 
+                of race-related issues with a confederate and provided initial support for the predictive validity of the measure. Overall, this report supports a 
+                growing literature that microaggressions are more than innocuous, harmless behaviors, unrelated to racism, and instead represent relevant processes 
+                within the science of racism and bias. It also provides a potential means of testing the effectiveness of interventions intended to reduce the 
+                commission of microaggressions.
+              </span>
+            </li>
+
+            <li>
+              <span class=title>
+                <a href="https://doi.org/10.1186/s12909-020-02004-9" target="_blank">
+                  Addressing microaggressions in racially charged patient-provider interactions: A pilot randomized trial
+                </a>
+              </span>
+              <span class="journal">BMC Medical Education</span>
+              <span class="year">2020</span>
+              <span class="author">Jonathan Kanter, Daniel Rosen, Katherine Manbeck, Heather Branstetter, Adam Kuczynski, Mariah Corey, Daniel Maitland, and Monnica Williams </span>
+              <span class="abstract">
+                Background: Racial bias in medical care is a significant public health issue, with increased focus on microaggressions
+                and the quality of patient-provider interactions. Innovations in training interventions are needed to decrease microaggressions
+                and improve provider communication and rapport with patients of color during medical encounters. Methods: This paper presents a
+                pilot randomized trial of an innovative clinical workshop that employed a theoretical model from social and contextual behavioral
+                sciences. The intervention specifically aimed to decrease providers’ likelihood of expressing biases and negative stereotypes when
+                interacting with patients of color in racially charged moments, such as when patients discuss past incidents of discrimination.
+                Workshop exercises were informed by research on the importance of mindfulness and interracial contact involving reciprocal exchanges
+                of vulnerability and responsiveness. Twenty-five medical student and recent graduate participants were randomized to a workshop
+                intervention or no intervention. Outcomes were measured via provider self-report and observed changes in targeted provider behaviors.
+                Specifically, two independent, blind teams of coders assessed provider emotional rapport and responsiveness during simulated interracial
+                patient encounters with standardized Black patients who presented specific racial challenges to participants. Results: Greater improvements
+                in observed emotional rapport and responsiveness (indexing fewer microaggressions), improved self-reported explicit attitudes toward minoritized
+                groups, and improved self-reported working alliance and closeness with the Black standardized patients were observed and reported by intervention
+                participants. Conclusions: Medical providers may be more likely to exhibit bias with patients of color in specific racially charged moments
+                during medical encounters. This small-sample pilot study suggests that interventions that directly intervene to help providers improve
+                responding in these moments by incorporating mindfulness and interracial contact may be beneficial in reducing racial health disparities.
+              </span>
+            </li>
+
+            <li>
+              <span class="title">
+                <a href="https://doi.org/10.1177/0265407519898267" target="_blank">
+                  Fear-of-Intimacy in the Interpersonal Process Model: An Investigation in Two Parts
+                </a>
+              </span>
+              <span class="journal">Journal of Social and Personal Relationships</span>
+              <span class="year">2020</span>
+              <span class="author">Katherine  Manbeck, Jonathan Kanter, Adam Kuczynski, Daniel Maitland, and Mariah Corey</span>
+              <span class="abstract">
+                The interpersonal process model (IPM) suggests that closeness develops in relationships when two people reciprocally
+                engage in vulnerable self-disclosure, respond to each other, and perceive each other’s responses as validating, understanding,
+                and caring (responsive). Little is known about how fear-of-intimacy relates to this foundational intimacy process. We conducted
+                two studies of fear-of-intimacy and the IPM. In Study 1, 146 high fear-of-intimacy participants were randomly assigned to either
+                interact for 1 hr with a research assistant (RA) demonstrating high responsiveness, to interact for 1 hr with an RA displaying low
+                responsiveness, or to view a nature video for 1 hr. Unlike previous experiments with undergraduates documenting that high responsiveness
+                predicts closeness up to 2 weeks after the interaction, the current study with high fear-of-intimacy individuals found that high
+                responsiveness predicted closeness immediately after the interaction but this was not sustained over time. In Study 2, we conducted
+                structural modeling in a diverse sample of 216 survey respondents with a range of fear-of-intimacy scores. Consistent with previous
+                studies, perceived responsiveness strongly predicted closeness. Fear-of-intimacy had negative direct effects on vulnerable self-disclosure
+                and perceived responsiveness but a positive direct effect on closeness.
+              </span>
+            </li>
+
+            <li>
+              <span class="title">
+                <a href="https://doi.org/10.1007/s11136-019-02298-3" target="_blank">
+                  Differential Associations Between Interpersonal Variables and Quality-of-Life in a Sample of College Students
+                </a>
+              </span>
+              <span class="journal">Quality of Life Research</span>
+              <span class="year">2019</span>
+              <span class="author">Adam Kuczynski, Jonathan Kanter, and Donald Robinaugh</span>
+              <span class="abstract">
+                Humans are fundamentally social beings, and the relationships we form with others are crucial for our well-being.
+                Research across a variety of domains has established the association between a variety of interpersonal factors and
+                health outcomes, including quality-of-life. However, there is a need for a more integrative, holistic analysis of these
+                variables and how they relate to one another. Undergraduate students (<em>n</em> = 1456) from four universities across the United
+                States completed self-report measures of their quality-of-life and a variety of interpersonal factors identified as important
+                predictors across the literature. We examined zero-order correlations between these measures and quality-of-life, estimated
+                a path model to look at unique variance accounted for by each, and finally used network analysis to examine the network of
+                direct and indirect associations among these variables and quality-of-life. Loneliness had the strongest association with
+                quality-of-life across all analyses. When examining the unique association between quality-of-life and each interpersonal
+                variable, six remained statistically significant: loneliness, social support, social connectedness, emotional intelligence,
+                intimacy with one&apos;s romantic partner, and empathic concern. These results were supported by the network model, which found
+                direct associations between quality-of-life and these six variables as well as indirect associations with all other
+                interpersonal variables in the model. Results from this research suggest that interpersonal factors in general, and
+                loneliness in particular, are strongly associated with quality-of-life. Future research is needed to establish the
+                direction of these effects and examine for whom these findings are generalizable.
+              </span>
+            </li>
+
+            <li>
+              <span class="title">
+                <a href="https://doi.org/10.1016/j.jcbs.2019.02.004" target="_blank">
+                  Measuring Intimacy as a Contextual Behavioral Process: Psychometric Development and Evaluation of the Awareness, Courage, and Responsiveness Scale
+                </a>
+              </span>
+              <span class="journal">Journal of Contextual Behavioral Science</span>
+              <span class="year">2019</span>
+              <span class="author">Adam Kuczynski, Jonathan Kanter, Chad Wetterneck, Fabi&aacute;n Olaz, R. Sonia Singh, Eric Lee, Tara Stowe, Trevor Mazzucchelli, Judy Mier-Chairez, Daniel Maitland, Katherine Manbeck, and Mariah Corey</span>
+              <span class="abstract">
+                High quality relationships are essential to psychological health and well-being, and relational intimacy is a core
+                model of intimacy wherein individuals develop close, trusting relationships with one another. Functional Analytic
+                Psychotherapy (FAP) is a contextual behavioral intervention approach that is well-equipped to target inter-
+                personal processes through the provision of in-session, therapist mediated reinforcement of skillful intimate
+                relating. Single-subject level analyses of FAP&apos;s efficacy and mechanism of action are supportive; however, there
+                is a need for group-level research to evaluate its efficacy and generalizability. This paper presents the devel-
+                opment of the Awareness, Courage, and Responsiveness Scale (ACRS), a self-report measure of behaviors es-
+                sential to intimate relating informed by contextual behavioral science principles and Reis and Shaver&apos;s (1988)
+                Intimacy Process Model. In this five-part study, functioning of the ACRS is examined in undergraduate student
+                samples (Studies 1–3), an adult community sample (Study 3), non-clinical dyadic relationships (Study 4), and a
+                clinical sample (Study 5). Strengths and limitations of the final measure are discussed.
+              </span>
+            </li>
+
+            <li>
+              <span class="title">
+                <a href="https://link.springer.com/article/10.1007%2Fs40732-019-00338-5" target="_blank">
+                  A Preliminary Test of a Social Connectedness Burnout Intervention for Mexican Mental Health Professionals
+                </a>
+              </span>
+              <span class="journal">The Psychological Record</span>
+              <span class="year">2019</span>
+              <span class="author">Michel Reyes Ortega, Adam Kuczynski, Jonathan Kanter, Iv&aacute;n Arango de Montis, and Mar&iacute;a Santos</span>
+              <span class="abstract">
+                Job burnout is a condition that interferes significantly with quality of life and is related to stressful working
+                environments, organizational climate, and client outcomes. The introduction of burnout prevention and &quot;Helping the Helper&quot;
+                programs may produce significant benefits with respect to this issue. In this study, we assessed a weekly online &quot;Helping
+                the Helper&quot; intervention based on the behavioral principles of Functional Analytic Psychotherapy (FAP) to improve social
+                relationships, reduce burnout, and improve organizational climate and quality of life in mental health professionals. Six
+                therapists of the Borderline Personality Disorder Clinic of Mexico&apos;s National Institute of Psychiatry participated in this study.
+                Subjects answered three questionnaires (Maslach Burnout Inventory, Multidimensional Scale of Organizational Climate, and World
+                Health Organization Quality of Life - BREF) at seven time points throughout the duration of the study. The intervention was
+                implemented between time points three and five. Robust Improvement Rate Difference (R-IRD) scores were computed for each subject
+                to assess for the intervention&apos;s efficacy. Results suggest preliminary support for the possibility of a &quot;Helping the Helper&quot;
+                intervention based on FAP for reducing burnout and improving organizational climate among colleagues in a high-stress, public
+                mental health setting.
+              </span>
+            </li>
+
+            <li>
+              <span class="title">
+                <a href="https://doi.org/10.1016/j.jcbs.2018.09.001" target="_blank">
+                  A Brief Contextual-Behavioral Intervention to Improve Relationships: A Randomized Trial
+                </a>
+              </span>
+              <span class="journal">Journal of Contexual Behavioral Science</span>
+              <span class="year">2018</span>
+              <span class="author">Jonathan Kanter, Adam Kuczynski, Mavis Tsai, and Robert Kohlenberg</span>
+              <span class="abstract">
+                Higher quality relationships enhance our emotional well-being, physical health, and life-span. This study
+                describes a four-session intervention for increasing closeness in romantic and non-romantic dyads. Three key
+                relational constructs – awareness, courage and love (ACL) – were targeted in a randomized control trial comparing
+                ACL (<em>n</em> = 36) with an active comparison condition (<em>n</em> = 34). ACL was a structured protocol involving four one-
+                hour weekly sessions between a trained coach and both members of a relational dyad. Overall, results were
+                mixed. While there were few signifi cant results for the full sample, for those with high fear of intimacy, the ACL
+                intervention decreased fear of intimacy and improved social connectedness and intimacy between members of
+                dyads compared to the control group post-intervention and at one-month follow-up. These results are encouraging
+                for a potentially signifi cant subset of the general public with high fear of intimacy who can be helped
+                to access the mental and physical health benefi ts of relationships
+              </span>
+            </li>
+
+            <li>
+              <span class="title">
+                <a href="https://doi.org/10.1037/vio0000208" target="_blank">
+                  The Antisemitism-Related Stress Inventory: Development and Preliminary Psychometric Evaluation
+                </a>
+              </span>
+              <span class="journal">Psychology of Violence</span>
+              <span class="year">2018</span>
+              <span class="author">Daniel Rosen, Adam Kuczynski, and Jonathan Kanter</span>
+              <span class="abstract">
+                Objective: This article describes the development and preliminary psychometric evaluation of the Antisemitism-Related
+                Stress Inventory (ARSI), a multidimensional measure of the frequency and impact of antisemitic experiences of American
+                Jews. As the first known attempt to measure antisemitism-related stress, the ARSI represents a novel contribution in
+                this area. Method: Adult, American Jewish respondents (<em>N</em> = 500) completed a battery of measures, including 87
+                initial items for possible inclusion in the ARSI. An exploratory factor analysis determined the factor structure of and
+                best items for inclusion in the final scale. Correlations with established measures of stress, satisfaction with life,
+                self-esteem, and Jewish religious and cultural identity were computed to explore concurrent validity. Results: The final
+                30-item ARSI included three subscales capturing Individual Experiences of antisemitism (14 items), Collective Experiences of
+                antisemitism (11 items), and experiences related to one&apos;s Personal Safety (five items). The ARSI demonstrated strong internal
+                consistency and concurrent validity with measures of stress and satisfaction with life. Jewish cultural identity predicted a
+                higher frequency of collective experiences of anti-Semitism, whereas religious identity predicted fewer individual experiences
+                of antisemitism. Conclusion: Findings support the ARSI as a promising measure to understand the impact of antisemitism on
+                American Jews. These findings are discussed in regard to their specific implications for future research, including the need
+                for further investigation into the impact of antisemitism on the psychological health and well-being of American Jews and
+                complex relations with multiple aspects of Jewish identity.
+              </span>
+            </li>
+
+            <li>
+              <span class="title">
+                <a href="https://doi.org/10.1016/j.cpr.2017.09.010" target="_blank">
+                  A Comprehensive Review of Research on Functional Analytic Psychotherapy
+                </a>
+              </span>
+              <span class="journal">Clinical Psychology Review</span>
+              <span class="year">2017</span>
+              <span class="author">Jonathan Kanter, Katherine Manbeck, Adam Kuczynski, Daniel Maitland, Alessanda Villas-B&ocirc;as, and Michel Reyes Ortega</span>
+              <span class="abstract">
+                Functional Analytic Psychotherapy (FAP; Kohlenberg & Tsai, 1991) is a transdiagnostic approach to outpatient
+                psychotherapy that presented guidelines to instantiate the behavioral principle of natural, social reinforcement
+                applied to idiographic behavioral targets within a genuine and authentic psychotherapy relationship. We present
+                the fi rst comprehensive review of research on FAP, including qualitative studies, uncontrolled and controlled
+                single-case designs, group designs, and studies on training therapists in FAP. We conclude that current research
+                support for FAP is promising but not suffi cient to justify claims that FAP is research-supported for specific
+                psychiatric disorders. There is stronger support for FAP&apos;s mechanism of therapist-as-social reinforcer: FAP
+                techniques, when appropriately applied to idiographically defi ned behavioral problems— primarily in the realm
+                of social functioning — produce positive change in those behaviors.
+              </span>
+            </li>
+
+            <li>
+              <span class="title">
+                <a href="https://doi.org/10.1007/s12552-017-9214-0" target="_blank">
+                  A Preliminary Report on the Relationship Between Microaggressions Against Black People and Racism Among White College Stuents
+                </a>
+              </span>
+              <span class="journal">Race and Social Problems</span>
+              <span class="year">2017</span>
+              <span class="author">Jonathan Kanter, Monnica Williams, Adam Kuczynski, Katherine Manbeck, Marlena Debreaux, and Daniel Rosen</span>
+              <span class="abstract">
+                Previous efforts to understand microaggressions have surveyed stigmatized group members&apos; experiences of receiving
+                microaggressions. This report presents the first attempt to measure self-reported likelihood of delivering
+                microaggressions rather than receiving microaggressions and to explore the association between the likelihood of
+                delivering microaggressions and racial prejudice. We conducted a cross-sectional survey of 33 black and 118
+                non-Hispanic white undergraduate students at a large public Southern/Midwest university. Black students reported
+                the degree to which a series of statements would be experienced as microaggressive. White students reported their
+                likelihood of delivering those statements and completed measures of racial prejudice. White students&apos; self-reported
+                likelihood of engaging in microaggressive acts was significantly related to all measures of racial prejudice. The
+                single item &quot;A lot of minorities are too sensitive&quot; was the strongest predictor of negative feelings toward
+                black people. Results offer preliminary support that the delivery of microaggressions by white students is not simply
+                innocuous behavior and may be indicative of broad, complex, and negative racial attitudes and explicit underlying
+                hostility and negative feelings toward black students.
+              </span>
+            </li>
+
+            <li>
+              <span class="title">
+                <a href="https://doi.org/10.1016/j.jcbs.2017.07.002" target="_blank">
+                Relationship Science Informed Clinically Relevant Behaviors in Functional Analytic Psychotherapy: The Awareness, Courage, and Love Model
+                </a>
+              </span>
+              <span class="journal">Journal of Contextual Behavioral Science</span>
+              <span class="year">2017</span>
+              <span class="author">Daniel Maitland, Jonathan Kanter, Katherine Manbeck, and Adam Kuczynski</span>
+              <span class="abstract">
+                The use of idiographically defined target behaviors in Functional Analytic Psychotherapy (FAP) has
+                limited participation in a reticulated model of treatment development. One way to address this limitation
+                is to offer a standardized set of clinical targets for FAP. The current study details a method of identifying
+                standardized treatment targets in FAP using the Awareness, Courage, and Love (ACL) model. The applicability
+                of the model was assessed by evaluating the degree to which previously identified clinical targets in FAP
+                research correspond with the proposed specific categories of the ACL model. There is an 83.67% fit between
+                past idiographic targets and current standardized targets. We discuss how ACL may be clinically useful and
+                encourage more integrative treatment development for FAP.
+              </span>
+            </li>
+
+            <li>
+              <span class="title">
+                <a href="https://doi.org/10.1007/s40732-016-0198-8" target="_blank">
+                  Preliminary Findings on the Effects of Online Functional Analytic Psychotherapy Training on Therapist Competency
+                </a>
+              </span>
+              <span class="journal">The Psychological Record</span>
+              <span class="year">2016</span>
+              <span class="author">Daniel Maitland, Jonathan Kanter, Mavis Tsai, Adam Kuczynski, Katherine Manbeck, and Robert Kohlenberg</span>
+              <span class="abstract">
+                Functional Analytic Psychotherapy (FAP) is a contextual behavioral psychotherapy approach in which client behavior
+                is shaped in the psychotherapy relationship and then generalized to out-of-session contexts. Efforts to train
+                therapists in FAP have employed a parallel process, attempting to shape trainee behavior in an 8-week, live,
+                online course in which trainees interact with each other in a series of experiential exercises. Previous research
+                on the effects of this FAP training protocol have been hampered by reliance on trainee self-report and a lack of
+                objective assessment of trainee behavior in actual sessions. In the current study, we developed and piloted an
+                objective measure of FAP competency and employed it to assess outcomes in a FAP training study. Sixteen participants
+                with a range of previous FAP training experiences were randomly assigned to an immediate FAP training or a
+                waitlist-then-training group. Trainee self-report findings largely replicated findings from the previous study
+                (Kanter, Tsai, Holman, & Koerner, 2012), with larger and more consistent effects found for trainees with fewer previous
+                FAP training experiences. Objective assessment of in-session trainee behavior with the FAP Competency Scale suggested a
+                significant effect of training, but these results were limited by missing data. These findings provide preliminary support
+                for the hypothesis that engaging in a FAP training that functionally parallels the therapy process can enhance FAP therapist
+                in-session competency.
+              </span>
+            </li>
+
+            <li>
+              <span class="title">
+                <a href="https://doi.org/10.1016/j.jcbs.2015.08.003" target="_blank">
+                  Reinforcement Matters: A Preliminary, Laboratory-Based Component-Process Analysis of Functional Analytic Psychotherapy&apos;s Model of Social Connection
+                </a>
+              </span>
+              <span class="journal">Journal of Contextual Behavioral Science</span>
+              <span class="year">2015</span>
+              <span class="author">Kevin Haworth, Jonathan Kanter, Mavis Tsai, Adam Kuczynski, James Rae, and Robert Kohlenberg</span>
+              <span class="abstract">
+                A therapeutic model of social connection derived from Functional Analytic Psychotherapy (FAP) that
+                applies to both the client&apos;s outside-of-therapy relationships and the psychotherapeutic relationship is
+                explored in two studies. The model integrates established behavioral principles with existing research on
+                the reciprocal process of self-disclosure and responsiveness that occurs during development of intimate
+                relationships to highlight a promising therapeutic process. In this process, self-disclosure (&quot;courage&quot; in
+                FAP&apos;s model) is evoked by the therapist and then reinforced with therapeutic responsiveness (&quot;love&quot; in
+                the FAP model) resulting in improved self-disclosure and more connectedness in the therapy and other
+                relationships. Study 1 included a sample of 77 undergraduate participants who self-disclosed responses
+                to a series of closeness generating questions to undergraduate research assistants trained in respon-
+                siveness. Findings indicated that social connection increased following this full procedure. Study 2 included
+                a sample of 99 undergraduate participants and provided evidence that the responsiveness of the
+                research assistant is key to promoting increased feelings of connectedness and also improves the depth
+                of disclosure.
+              </span>
+            </li>
+
+            <li>
+              <span class="title">
+                <a href="https://doi.org/10.1016/j.jcbs.2015.03.003" target="_blank">
+                  A Brief, Interpersonally Oriented Mindfulness Intervention Incorporating Functional Analytic Psychotherapy&apos;s model of Awareness, Courage, and Love
+                </a>
+              </span>
+              <span class="journal">Journal of Contextual Behavioral Science</span>
+              <span class="year">2015</span>
+              <span class="author">Robert Kohlenberg, Mavis Tsai, Adam Kuczynski, James Rae, Elizabeth Lagbas, Jianne Lo, and Jonathan Kanter</span>
+              <span class="abstract">
+                A brief, group mindfulness intervention targeting both state mindfulness and social connectedness was developed
+                based on Functional Analytic Psychotherapy&apos;s model of awareness, courage, and love. A total of 114 college
+                students were randomly assigned to one of three conditions: (1) a nature video control, (2) a traditional
+                intrapersonal mindfulness intervention focused on awareness of breath and private stimuli such as bodily
+                sensations, thoughts, and feelings, or (3) an interpersonal mindfulness intervention that emphasized
+                (a) expanding awareness from private internal to external public stimuli associated with the presence of
+                others, (b) a contemplation of common humanity and risks participants could take to improve a specific
+                relationship, and (c) a brief small group interaction involving courageous sharing of these risks. Results
+                indicated significant benefits of all three conditions with respect to state mindfulness with both
+                mindfulness conditions outperforming the nature video, and significant benefits of both mindfulness
+                conditions with respect to social connectedness, with the interpersonal mindfulness condition outperforming
+                the intrapersonal condition. Limitations include no follow-up data to explore the maintenance of gains over time.
+              </span>
+            </li>
+          </ul>
+        </div>
+
+
+
+        <div id="CV" class="tabcontent">
+
+          <object id="cv-pdf" type="application/pdf" data="./files/Adam M. Kuczynski CV.pdf" width="100%" height="750px"></object>
+
+          <a target="_blank" href="./files/Adam M. Kuczynski CV.pdf">
+            <div id="cv-mobile" class="button">
+              View CV
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+        <footer>
+          <!-- Twitter icon -->
+          <div class="footer-container">
+
+            <!-- Twitter -->
+            <a href="https://twitter.com/adamkuczynski_" target="_blank">
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 50 50">
+                <path d="M50.061,10.438c-1.846,0.818-3.826,1.369-5.908,1.62c2.125-1.273,3.757-3.29,4.523-5.688 c-1.986,1.177-4.19,2.033-6.531,2.493c-1.874-2-4.547-3.247-7.504-3.247c-5.68,0-10.284,4.604-10.284,10.282 c0,0.805,0.092,1.589,0.269,2.343C16.08,17.812,8.502,13.718,3.429,7.497c-0.885,1.522-1.391,3.289-1.391,5.172 c0,3.567,1.812,6.713,4.574,8.56c-1.688-0.054-3.271-0.517-4.657-1.288c0,0.044,0,0.086,0,0.131c0,4.984,3.544,9.134,8.245,10.084 c-0.86,0.236-1.769,0.36-2.707,0.36c-0.664,0-1.309-0.064-1.938-0.186c1.313,4.081,5.108,7.06,9.608,7.143 c-3.517,2.757-7.951,4.399-12.77,4.399c-0.833,0-1.649-0.048-2.452-0.144c4.548,2.919,9.956,4.619,15.762,4.619 c18.915,0,29.26-15.668,29.26-29.252c0-0.448-0.011-0.894-0.03-1.332C46.94,14.313,48.684,12.5,50.061,10.438z"/>
+              </svg>
+            </a>
+
+            <!-- Github -->
+            <a href="https://github.com/adamkucz" target="_blank">
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 512 512">
+                <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.6 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                </path>
+              </svg>
+            </a>
+
+            <!-- Google Scholar -->
+            <a href="https://scholar.google.com/citations?user=ZJTgCNAAAAAJ&hl=en" target="_blank">
+              <svg aria-hidden="true" focusable="false"viewBox="0 0 512 512">
+                <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.5 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z">
+                </path>
+              </svg>
+            </a>
+
+            <!-- Envelope icon -->
+            <a href="mailto:adamkucz@uw.edu">
+            <svg aria-hidden="true" focusable="false" viewBox="0 0 50 50">
+              <path d="M 0 7 L 0 9.875 L 25 29.71875 L 50 10.125 L 50 7 L 0 7 z M 0 12.40625 L 0 43 L 50 43 L 50 12.65624 L 25.625 31.78125 C 25.444 31.92325 25.218 32 25 32 C 24.78 32 24.557 31.92625 24.375 31.78125 L 0 12.40625 z"/>
+            </svg>
+            </a>
+
+          </div>
+        </footer>
+      </div>
+
+
+
+
+    <!-- </div> -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
