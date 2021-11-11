@@ -144,7 +144,7 @@ svg:hover path {
   padding-top: 30px;
 }
 
-#CurrentProjects .image-container {
+#Projects .image-container {
   float: left;
 }
 
@@ -331,13 +331,13 @@ a:hover {
 Current Projects page
 ***************************/
 
-#CurrentProjects div {
+#Projects div {
   margin: 0 15%;
   padding: 10px;
   margin-top: 15px;
 }
 
-#CurrentProjects img {
+#Projects img {
   height: 65px;
   width: 65px;
   margin: auto;
@@ -346,26 +346,26 @@ Current Projects page
 }
 
 
-#CurrentProjects h2 {
+#Projects h2 {
   line-height: 65px;
   text-align: left;
 }
 
-#CurrentProjects p {
+#Projects p {
   font-size: 1.15em;
   text-align: left;
 }
 
-#CurrentProjects a {
+#Projects a {
   font-weight: bold;
 }
 
-#CurrentProjects h2 {
+#Projects h2 {
   font-size: 1.5em;
   line-height: 1.5em;
 }
 
-#CurrentProjects td {
+#Projects td {
   padding: 0;
 }
 
