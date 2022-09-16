@@ -1,0 +1,34 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F)
+
+library(ggplot2)
+library(dplyr)
+```
+
+# Scatterplot with regression line, rugs
+
+```{r}
+ggplot(data = mtcars,
+       mapping = aes(x = hp, y = qsec)) +
+  geom_point() +
+  geom_rug() +
+  geom_smooth(method = "lm", color = "black") +
+  scale_x_continuous(name = "Horse Power (HP)") +
+  scale_y_continuous(name = "Quarter Mile Time (seconds)") +
+  theme(panel.grid = element_blank(),
+        panel.background = element_rect(color = "black", fill = NA, size = 1),
+        axis.text = element_text(color = "black"))
+```
+
+# Lollipop plot
+
+```{r}
+mtcars <- mtcars %>%
+  mutate(car = rownames(.))
+
+
+```
