@@ -168,7 +168,7 @@ svg:hover path {
 }
 
 #full-name::after {
-  content: "Adam Kuczynski";
+  content: "Adam Kuczynski, PhD";
 }
 
 #subheader {
@@ -199,7 +199,13 @@ h2 {
 }
 
 #interests ul {
-  list-style-image: url("../images/icons/atom_24x24.png");
+  /* list-style-image: url("../images/icons/atom_24x24.png"); */
+  list-style:disc;
+}
+
+li::marker {
+  font-size: 1.5em;
+  font-weight: bolder;
 }
 
 #interests ul li {
